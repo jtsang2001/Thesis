@@ -1,0 +1,4 @@
+Potential Areas of Further Research
+- Use nnUNet as a baseline instead of UNet (A semantic segmentation method that automatically adapts to a given dataset. It will analyze the provided training cases and automatically configure a matching U-Net-based segmentation pipeline)
+
+- Novel Ideas
