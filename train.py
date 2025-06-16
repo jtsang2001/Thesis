@@ -2,7 +2,7 @@ import os
 import torch
 from torch.utils.data import DataLoader
 from dataset import KITS23Dataset
-from model import UNet3D, DiceLoss
+from model import UNet3D, DiceBCELoss
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 from tqdm import tqdm
@@ -133,7 +133,7 @@ def main():
     model = UNet3D(in_channels=1, out_channels=1).to(device)
     
     # Define loss function and optimizer
-    criterion = DiceLoss(weight=0.5)
+    criterion = DiceBCELoss(weight=0.5)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)
     
     # Train model
