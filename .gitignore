@@ -1,0 +1,11 @@
+# Virtual environment
+.conda/
+.venv/
+
+# PyTorch
+__pycache__/
+checkpoints/
+
+# Datasets
+kits23/
+processed_kits23_final/
