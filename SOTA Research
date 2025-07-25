@@ -17,3 +17,6 @@ SOTA Models
 -https://github.com/yulequan/UA-MT/tree/master
 -https://github.com/kleinzcy/SASSnet?tab=readme-ov-file
 -https://github.com/koncle/CoraNet?tab=readme-ov-file
+
+Current Model:
+- DeepLabV3 Based Model, Image Size was scaled down to reduce computation time. Was able to achieve a computational DICE Score of 0.75. This may be a good starting baseline, investigation into nnU-Net and Auto3DSeg required to determine best baseline.
