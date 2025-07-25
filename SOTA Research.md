@@ -20,3 +20,4 @@ SOTA Models
 
 Current Model:
 - DeepLabV3 Based Model, Image Size was scaled down to reduce computation time. Was able to achieve a computational DICE Score of 0.75. This may be a good starting baseline, investigation into nnU-Net and Auto3DSeg required to determine best baseline.
+<img width="1560" height="798" alt="image" src="https://github.com/user-attachments/assets/2564612d-7d55-4705-927b-5722d528a6e4" />
