@@ -23,3 +23,5 @@ Current Model:
 <img width="1560" height="798" alt="image" src="https://github.com/user-attachments/assets/2564612d-7d55-4705-927b-5722d528a6e4" />
 - When re-running the Model using 256x256 images instead of 32x32, we were able to achieve significantly better results. A DICE score of 0.85 was achieved. This can serve as a good baseline for implementing SSL.
 <img width="1562" height="797" alt="image" src="https://github.com/user-attachments/assets/208a7b62-fe6b-45a8-aada-c7e2b7e42c54" />
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11204546/
